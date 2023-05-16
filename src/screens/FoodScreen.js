@@ -27,4 +27,4 @@ const FoodScreen = () => {
 };
 
 export default FoodScreen;
-https://www.uplabs.com/posts/food-delivery-app-ui-design-ecommerce-food-app
+// https://www.uplabs.com/posts/food-delivery-app-ui-design-ecommerce-food-app
