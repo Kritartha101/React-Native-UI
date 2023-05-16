@@ -1,5 +1,6 @@
 import { View, Text, StyleSheet, Image, Button, StatusBar } from "react-native";
 import React from "react";
+import Dot from "../components/Dot";
 
 const Dashboard = () => {
   return (
@@ -12,61 +13,7 @@ const Dashboard = () => {
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
       </Text>
-      <View
-        style={{
-          flexDirection: "row",
-          alignSelf: "center",
-          margin: 5,
-          gap: 9,
-          paddingBottom: 15,
-        }}
-      >
-        <View
-          style={{
-            flex: 0.0,
-            height: 5,
-            width: 5,
-            backgroundColor: "#808080",
-            borderRadius: "110",
-          }}
-        ></View>
-        <View
-          style={{
-            flex: 0.0,
-            height: 5,
-            width: 5,
-            backgroundColor: "#808080",
-            borderRadius: "110",
-          }}
-        ></View>
-        <View
-          style={{
-            flex: 0.0,
-            height: 5,
-            width: 5,
-            backgroundColor: "#808080",
-            borderRadius: "110",
-          }}
-        ></View>
-        <View
-          style={{
-            flex: 0.0,
-            height: 5,
-            width: 5,
-            backgroundColor: "#808080",
-            borderRadius: "110",
-          }}
-        ></View>
-        <View
-          style={{
-            flex: 0.0,
-            height: 5,
-            width: 5,
-            backgroundColor: "red",
-            borderRadius: "110",
-          }}
-        ></View>
-      </View>
+      <Dot />
       <View style={styles.button}>
         <Button title="Get Started" color="#fff" />
       </View>
