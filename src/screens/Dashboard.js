@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, Image, Button, StatusBar } from "react-native";
 import React from "react";
-import Dot from "../components/Dot";
+import DotIcon from "../components/DotIcon";
 
 const Dashboard = () => {
   return (
@@ -13,7 +13,7 @@ const Dashboard = () => {
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
       </Text>
-      <Dot />
+      <DotIcon />
       <View style={styles.button}>
         <Button title="Get Started" color="#fff" />
       </View>
